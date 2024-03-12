@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dbrand</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                    animation: {
+                        'infinite-scroll': 'infinite-scroll 20s linear infinite',
+                    },
+                    keyframes: {
+                        'infinite-scroll': {
+                            from: { transform: 'translateX(0)' },
+                            to: { transform: 'translateX(-100%)' },
+                        }
+                    }                    
+                },
+            },
+        };
+    </script>
+</head>
+<body>
+
+
+    
+    
+
+
+    <div class="bg-black w-full h-20 flex ">
+        <div class="flex py-4 pl-28">
+            <img class="cursor-pointer w-32 h-12 mr-6" src="images/logo.png" alt="">
+            <ul class="flex text-base gap-10 pl-6 items-center text-white font-normal">
+                <a href="https://dbrand.com/shop/special-edition/x-ray"><li class="cursor-pointer hover:text-yellow-200 transition-transform transform hover:scale-110 hover:border-b border-blue-50">Limited Edition</li></a>
+                <a href="https://dbrand.com/shop/skins"><li class="cursor-pointer hover:text-yellow-200 transition-transform transform hover:scale-110 hover:border-b border-blue-50">Skins</li></a>
+                <a href="https://dbrand.com/shop/grip/devices"><li class="cursor-pointer hover:text-yellow-200 transition-transform transform hover:scale-110 hover:border-b border-blue-50">Cases</li></a>
+                <a href="https://dbrand.com/shop/glass"><li class="cursor-pointer hover:text-yellow-200 transition-transform transform hover:scale-110 hover:border-b border-blue-50">Screen Protectors</li></a>
+                <a href="https://dbrand.com/"><li class="cursor-pointer hover:text-yellow-200 transition-transform transform hover:scale-110 hover:border-b border-blue-50">Gaming</li></a>
+                <a href="https://dbrand.com/"><li class="cursor-pointer hover:text-yellow-200 transition-transform transform hover:scale-110 hover:border-b border-blue-50">Artifacts</li></a>
+            </ul>
+        </div>
+        <div class="flex items-center pl-20 ml-96">
+            <a target="_blank" href="login.html">
+                <img src="images/icon1.png" alt="Image" class=" w-6 h-6 cursor-pointer transition-transform transform hover:scale-125">
+            </a>
+            <img class=" cursor-pointer m-8 w-6 h-5 transition-transform transform hover:scale-125" src="images/icon2.png" alt="">
+            
+            
+        </div>
+    </div>
+    
+
+    <main class="relative antialiased h-96 flex flex-col justify-center bg-black overflow-hidden">
+        <div class="w-full mx-auto px-4 md:px-6 ">
+            <div class="text-center">
+
+                <div 
+                 class="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+                >
+                    <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-44 animate-infinite-scroll">
+                        <li class="">
+                            <img src="images/slide3.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide2.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide1.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide4.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide5.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide6.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide7.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide4.png" alt="" />
+                        </li>
+                    </ul>
+                    <ul class="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-44 animate-infinite-scroll" aria-hidden="true">
+                        <li class="">
+                            <img src="images/slide3.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide2.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide1.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide4.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide5.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide6.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide7.png" alt="" />
+                        </li>
+                        <li class="">
+                            <img src="images/slide4.png" alt="" />
+                        </li>
+                    </ul>              
+                </div>
+                
+            </div>
+
+        </div>
+    </main>
+
+
+    <section class="container mx-auto mt-0 md:pb-20 px-0 md:p-1 md:px-0">
+        <section class="relative px-10 md:p-0 transform duration-500 hover:shadow-2xl cursor-pointer hover:-translate-y-1 ">
+            <img class="xl:max-w-6xl" src="images/xbox.png" alt="">
+            <div class="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-10 right-5">
+                <div class="flex justify-between font-bold text-sm">
+                    <p>Product Review</p>
+                </div>
+                <h2 class="text-4xl font-semibold mt-4 md:mt-10">MACBOOK PRO M3</h2>
+                <p class="my-3 text-justify font-medium text-gray-700 leading-relaxed">The 16" M3 MacBook Pro starts at $2499. The price goes up depending on which version of M3 you use, along with storage and RAM options, each of which will add at least $200 to the price.</p>
+                <button class="mt-2 md:mt-5 p-3 px-5 bg-black text-white font-bold text-sm hover:bg-purple-800">Read More</button>
+            </div>
+        </section>
+    </section>
+
+
+    <div class="static -z-10 mx-40 text-gray-900 md:px-0">
+            
+            <div class="flex justify-center mb-20 md:justify-between ">
+                <h2 class="text-4xl text-center uppercase md:text-left md:text-5xl hover:border-b p-6 border-yellow-500 transition-transform transform hover:translate-x-10">
+                    TOP SMARTPHONES OF THE YEAR
+                </h2>
+            </div>
+
+
+            
+            <div class="flex flex-col gap-20 justify-center w-full text-2xl text-white uppercase md:flex-row md:space-y-0 md:space-x-8">
+                
+                <div class=" relative rounded-xl overflow-hidden md:w-1/4 cursor-pointer">
+                    
+                    <img src="images/p1.png" class="hidden w-full duration-200 md:block hover:scale-110">
+                    
+                    <img src="images/p1.png" class="w-full md:hidden hover:scale-150 duration-200">
+                    
+                    <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 
+                    hover:from-gray-900 hover:to-white hover:opacity-70"></div>
+                    
+                    <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 
+                    md:px-10 hover:scale-110 hover:text-black">
+                    Apple iPhone 15 Pro Max
+                    </h5>
+                </div>
+
+                <div class=" relative rounded-xl overflow-hidden md:w-1/4 cursor-pointer">
+                    
+                    <img src="images/p2.png" alt="" class="hidden w-full duration-200 md:block hover:scale-110">
+                    
+                    <img src="images/p2.png" alt="" class="w-full md:hidden hover:scale-150 duration-200">
+                    
+                    <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 
+                    hover:from-gray-900 hover:to-white hover:opacity-70"></div>
+                    
+                    <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 
+                    md:px-10 hover:scale-110 hover:text-black">
+                    Google Pixel 8 Pro
+                    </h5>
+                </div>
+
+                <div class=" relative rounded-xl overflow-hidden md:w-1/4 cursor-pointer">
+                    
+                    <img src="images/p3.png" alt="" class="hidden w-full duration-200 md:block hover:scale-110">
+                    
+                    <img src="images/p3.png" alt="" class="w-full md:hidden hover:scale-150 duration-200">
+                    
+                    <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 
+                    hover:from-gray-900 hover:to-white hover:opacity-70"></div>
+                    
+                    <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 
+                    md:px-10 hover:scale-110 hover:text-black">
+                    SAMSUNG Galaxy S23 Ultra 5G
+                    </h5>
+                </div>
+
+                <div class=" relative rounded-xl overflow-hidden md:w-1/4 cursor-pointer">
+                    
+                    <img src="images/p4.png" alt="" class="hidden w-full duration-200 md:block hover:scale-110">
+                    
+                    <img src="images/p4.png" alt="" class="w-full md:hidden hover:scale-150 duration-200">
+                    
+                    <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 
+                    hover:from-gray-900 hover:to-white hover:opacity-70"></div>
+                    
+                    <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 
+                    md:px-10 hover:scale-110 hover:text-black">
+                    Vivo X90 Pro
+                    </h5>
+                </div>
+
+            </div>
+
+            <div class="flex flex-col gap-20 justify-center w-full text-2xl text-white uppercase md:flex-row md:space-y-0 md:space-x-8 mt-10">
+
+                <div class=" relative rounded-xl overflow-hidden md:w-1/4 cursor-pointer">
+                    
+                    <img src="images/p5.png" alt="" class="hidden w-full duration-200 md:block hover:scale-110">
+                    
+                    <img src="images/p5.png" alt="" class="w-full md:hidden hover:scale-150 duration-200">
+                    
+                    <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 
+                    hover:from-gray-900 hover:to-white hover:opacity-70"></div>
+                    
+                    <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 
+                    md:px-10 hover:scale-110 hover:text-black">
+                    OnePlus 11
+                    </h5>
+                </div>
+
+                <div class=" relative rounded-xl overflow-hidden md:w-1/4 cursor-pointer">
+                    
+                    <img src="images/p6.png" alt="" class="hidden w-full duration-200 md:block hover:scale-110">
+                    
+                    <img src="images/p6.png" alt="" class="w-full md:hidden hover:scale-150 duration-200">
+                    
+                    <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 
+                    hover:from-gray-900 hover:to-white hover:opacity-70"></div>
+                    
+                    <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 
+                    md:px-10 hover:scale-110 hover:text-black">
+                    ASUS ROG Phone 5
+                    </h5>
+                </div>
+
+                <div class=" relative rounded-xl overflow-hidden md:w-1/4 cursor-pointer">
+                    
+                    <img src="images/p7.png" alt="" class="hidden w-full duration-200 md:block hover:scale-110">
+                    
+                    <img src="images/p7.png" alt="" class="w-full md:hidden hover:scale-150 duration-200">
+                    
+                    <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 
+                    hover:from-gray-900 hover:to-white hover:opacity-70"></div>
+                    
+                    <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 
+                    md:px-10 hover:scale-110 hover:text-black">
+                    Google Pixel 7 Pro 5G
+                    </h5>
+                </div>
+
+                <div class=" relative rounded-xl overflow-hidden md:w-1/4 cursor-pointer">
+                    
+                    <img src="images/p8.png" alt="" class="hidden w-full duration-200 md:block hover:scale-110">
+                    
+                    <img src="images/p8.png" alt="" class="w-full md:hidden hover:scale-150 duration-200">
+                    
+                    <div class="absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-transparent to-gray-900 
+                    hover:from-gray-900 hover:to-white hover:opacity-70"></div>
+                    
+                    <h5 class="absolute px-6 duration-200 w-52 bottom-4 md:bottom-8 
+                    md:px-10 hover:scale-110 hover:text-black">
+                    vivo X80 5G
+                    </h5>
+                </div>
+            </div> 
+        </div>
+
+
+        <main class="grid grid-flow-col relative -z-10 mt-24 bg-slate-700">
+      
+            <div class=" relative text-3xl text-white font-bold text-center">
+              <div class="text w-[50vw] h-[100vh] flex items-center justify-center">
+                <img class="w-full h-full top-0" src="images/phones.png" />
+              </div>
+              
+          
+              <div class=" w-[50vw] h-[100vh] items-center justify-center">
+                <img class="w-full h-full top-0" src="images/phones1.png" />
+                <img class="w-full h-full top-0" src="images/phones2.png" />
+                
+              </div>
+           
+              <div class=" w-[50vw] h-[100vh] flex items-center justify-center"></div>
+              
+            </div>
+    
+            <div class=" w-[48.9vw] h-[100vh] cursor-pointer bg-slate-700 sticky top-0">
+                <div class="flex w-full h-full cursor-pointer text-white text-4xl font-extrabold items-center justify-center absolute animate-pulse top-0">
+                    <button class="cursor-pointer border-b py-6 border-b-yellow-200">READY TO BUY?</button>
+                </div>
+            </div>
+            
+          </main>
+
+
+          <div class="flex justify-center md:justify-between ">
+            <h2 class="text-4xl text-center uppercase md:text-left md:text-5xl hover:border-b p-6 border-yellow-500 transition-transform transform hover:translate-x-10">
+                Recommended deals for you
+            </h2>
+        </div>
+
+    
+        <section class="container md:py-10 md:p-10 md:px-0">
+            <section class=" md:p-0 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 items-start ">
+                <article class="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
+                    <div class="relative h-96 overflow-hidden">
+                        <img class="absolute" src="images/best1.png" alt="">
+                        <img class="relative transform duration-500 group-hover:opacity-0" src="images/best11.png" alt="">
+                    </div>
+                    <div class="p-4 absolute bg-gray-200 rounded-full top-10 right-10 transform duration-500 opacity-0 group-hover:opacity-100">
+                        <a target="_blank" href="https://www.apple.com/iphone-15-pro/">
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="rgba(0,0,0,0.5)">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                        </a>
+                    </div>
+                    <ul class="mt-6 font-semibold text-gray-500">
+                        <li class="inline mr-3 text-xl font-bold pb-1 border-b-2 border-green-500">Apple iPhone 15 Pro Max</li>
+                    </ul>
+                    <p class="mt-6  text-xl leading-relaxed text-gray-700">
+                        The iPhone 15 Pro Max comes as one of the most significant upgrades in recent years, and not just because of the Type-C port. It shines in the performance.</p>
+                    <p class="mt-10 text-lg text-red-900 font-semibold">Rs. 156,900</p>
+                </article>
+    
+                <article class="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
+                    <div class="relative h-96 overflow-hidden">
+                        <img class="absolute" src="images/best2.png" alt="">
+                        <img class="relative transform duration-500 group-hover:opacity-0" src="images/best22.png" alt="">
+                    </div>
+                    <div class="p-4 absolute bg-gray-200 rounded-full top-10 right-10 transform duration-500 opacity-0 group-hover:opacity-100">
+                        <a target="_blank" href="https://store.google.com/product/pixel_8_pro?hl=en-GB&pli=1">
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="rgba(0,0,0,0.5)">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                      </svg>
+                        </a>
+                    </div>
+                    <ul class="mt-6 font-semibold text-gray-500">
+                        <li class="inline mr-3 text-xl font-bold pb-1 border-b-2 border-green-500">Google Pixel 8 Pro</li>
+                    </ul>
+                    <p class="mt-6  text-xl leading-relaxed text-gray-700">
+                        The Google Pixel 8 Pro looks more polished than its predecessor, brings a bright and rich display. Google promises a whopping 7 years of software updates.</p>
+                    <p class="mt-10 text-lg text-red-900 font-semibold">Rs. 106,998</p>
+                </article>
+    
+                <article class="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
+                    <div class="relative h-96 overflow-hidden">
+                        <img class="absolute" src="images/best3.png" alt="">
+                        <img class="relative transform duration-500 group-hover:opacity-0" src="images/best33.png" alt="">
+                    </div>
+                    <div class="p-4 absolute bg-gray-200 rounded-full top-10 right-10 transform duration-500 opacity-0 group-hover:opacity-100">
+                        <a target="_blank" href="https://www.samsung.com/us/smartphones/galaxy-s23-ultra/">
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="rgba(0,0,0,0.5)">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                        </a>
+                    </div>
+                    <ul class="mt-6 font-semibold text-gray-500">
+                        <li class="inline mr-3 text-xl font-bold pb-1 border-b-2 border-green-500">Samsung Galaxy S23 Ultra 5G</li>
+                    </ul>
+                    <p class="mt-6  text-xl leading-relaxed text-gray-700">
+                        The Samsung Galaxy S23 Ultra is the pinnacle of flagship experience, at least in the Android world. Finally the device has an S-pen that slots right into the body.                    </p>
+                    <p class="mt-10 text-lg text-red-900 font-semibold">Rs. 97,799</p>
+                </article>
+    
+                <article class="p-5 transform duration-300 hover:-translate-y-1 cursor-pointer  hover:shadow-2xl group">
+                    <div class="relative h-96 overflow-hidden">
+                        <img class="absolute" src="images/best4.png" alt="">
+                        <img class="relative transform duration-500 group-hover:opacity-0" src="images/best44.png" alt="">
+                    </div>
+                    <div class="p-4 absolute bg-gray-200 rounded-full top-10 right-10 transform duration-500 opacity-0 group-hover:opacity-100">
+                        <a target="_blank" href="https://www.oneplus.com/us/11">
+                            <svg class="w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="rgba(0,0,0,0.5)">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                        </a>
+                    </div>
+                    <ul class="mt-6 font-semibold text-gray-500">
+                        <li class="inline mr-3 text-xl font-bold pb-1 border-b-2 border-green-500">OnePlus 11</li>
+                    </ul>
+                    <p class="mt-6  text-xl leading-relaxed text-gray-700">
+                        The OnePlus 11 5G is one of the fastest phones on the planet currently thanks to the Qualcomm Snapdragon 8 Gen 2 SoC being harboured inside.                    </p>
+                    <p class="mt-10 text-lg text-red-900 font-semibold">Rs. 51,889</p>
+                </article>
+            </section>
+        </section>
+        
+        
+
+
+</body>
+</html>
